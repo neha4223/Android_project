@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.neha.filehandelling.MainActivity">
+
+    <Button
+        android:id="@+id/btnCreateNewFolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create New Folder"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:backgroundTint="@android:color/holo_blue_light"/>
+    <Button
+        android:id="@+id/btnCreateNewFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create New File"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:backgroundTint="@android:color/holo_orange_dark"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:background="#EEEEEE">
+        <EditText
+            android:id="@+id/etxWriteData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type to Write to File"/>
+        <Button
+            android:id="@+id/btnWriteData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Write Data"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:backgroundTint="@android:color/holo_orange_dark"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:background="#EEEEEE">
+        <EditText
+            android:id="@+id/etxReadData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Data shown here is already written to file"/>
+        <Button
+            android:id="@+id/btnReadData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Read Data"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:backgroundTint="@android:color/holo_orange_dark"/>
+    </LinearLayout>
+</LinearLayout>

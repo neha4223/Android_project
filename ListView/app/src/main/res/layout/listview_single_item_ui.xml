@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/single_imageview"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_android_black_24dp"/>
+
+    <TextView
+        android:id="@+id/single_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Earth"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="6dp"
+        android:textSize="22sp"
+        android:textColor="#000000"/>
+
+
+</LinearLayout>
+

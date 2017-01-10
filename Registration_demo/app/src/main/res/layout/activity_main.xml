@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.neha.registration_demo.MainActivity">
+
+    <EditText
+        android:id="@+id/edtFN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorPrimary"
+        android:hint="First Name"
+        android:typeface="serif"
+        android:textColor="@color/colorAccent"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edtLN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorPrimary"
+        android:hint="Last Name"
+        android:typeface="serif"
+        android:textColor="@color/colorAccent"
+        android:layout_margin="10dp"
+        android:layout_below="@id/edtFN"
+        />
+    <EditText
+        android:id="@+id/edtdob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorPrimary"
+        android:hint="Date Of Birth"
+        android:inputType="date"
+        android:typeface="serif"
+        android:textColor="@color/colorAccent"
+        android:layout_margin="10dp"
+        android:layout_below="@id/edtLN"
+        />
+    <EditText
+        android:id="@+id/edtmobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorPrimary"
+        android:hint="Mobile Number"
+        android:inputType="phone"
+        android:typeface="serif"
+        android:textColor="@color/colorAccent"
+        android:layout_margin="10dp"
+        android:layout_below="@id/edtdob"
+        />
+    <EditText
+        android:id="@+id/edtemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorPrimary"
+        android:hint="Email ID"
+        android:inputType="textEmailAddress"
+        android:typeface="serif"
+        android:textColor="@color/colorAccent"
+        android:layout_margin="10dp"
+        android:layout_below="@id/edtmobile"
+        />
+    <EditText
+        android:id="@+id/edtpswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="@color/colorPrimary"
+        android:inputType="numberPassword"
+        android:typeface="serif"
+        android:textColor="@color/colorAccent"
+        android:layout_margin="10dp"
+        android:layout_below="@id/edtemail"
+        />
+    <Button
+        android:id="@+id/btnclk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="20sp"
+        android:typeface="monospace"
+        android:backgroundTint="#B43546"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

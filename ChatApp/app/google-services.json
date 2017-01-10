@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1034017517412",
+    "firebase_url": "https://chatapp-be941.firebaseio.com",
+    "project_id": "chatapp-be941",
+    "storage_bucket": "chatapp-be941.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034017517412:android:509c0c0e8d4a58a8",
+        "android_client_info": {
+          "package_name": "com.example.neha.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034017517412-97ard890cog0un34vvliejfnj7a2alk3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.neha.chatapp",
+            "certificate_hash": "6E22F703C351E76AF087FE4DECF64D9E79B1A6E5"
+          }
+        },
+        {
+          "client_id": "1034017517412-acjjf3q4c2vlt5f3sdrg10ivu9185b8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhzSuzbly4znf_jj8NsuRwIWqAEeXxe8k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034017517412-acjjf3q4c2vlt5f3sdrg10ivu9185b8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
